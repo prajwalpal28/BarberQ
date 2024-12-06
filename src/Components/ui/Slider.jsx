@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { Button } from "./ui/button"
+import { Button } from "./button"
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 function rotateArray(arr, rotation) {

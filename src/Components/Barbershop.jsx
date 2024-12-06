@@ -1,5 +1,5 @@
 import React from "react"
-import { Slider } from "./Slider"
+import { Slider } from "./ui/Slider"
 import { BarberCard } from "./ui/BarberCard"
 import { barbers } from "../Data/BarbersReco"
 
