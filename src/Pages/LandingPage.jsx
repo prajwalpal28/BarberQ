@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from '../Components/NavBar';
 import HeroSection from '@/Components/HeroSection';
+import Recommendation from '@/Components/Recommendation';
 
 const LandingPage = () => {
     return (
@@ -10,6 +11,7 @@ const LandingPage = () => {
                 <div className="font-roboto">
                     <NavBar />
                     <HeroSection/>
+                    <Recommendation/>
                 </div>
             </div>
         </>
