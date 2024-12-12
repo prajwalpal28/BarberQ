@@ -8,7 +8,7 @@ export default {
 				roboto: ['Roboto', 'sans-serif'],
 			},
 			backgroundImage: {
-				'custom-linear-gradient': 'linear-gradient(to bottom right, #f4f1bb, #9bc1bc)',
+				'custom-linear-gradient': 'linear-gradient(to bottom right, #efebce, #d6ce93)',
 			},
 			animation: {
 				float1: 'float1 20s ease-in-out infinite',
@@ -40,9 +40,7 @@ export default {
 					md: 'calc(var(--radius) - 2px)',
 					sm: 'calc(var(--radius) - 4px)'
 				},
-				// backgroundImage: {
-				// 	'custom-linear-gradient': 'linear-gradient(to top, #d1ccc6, #b8b6b0, #a0a19b, #888c88, #727875, #636968, #545b5b, #474d4e, #3c4243, #313638, #262b2e, #1c2124)',
-				// },
+				
 				colors: {
 					background: 'hsl(var(--background))',
 					foreground: 'hsl(var(--foreground))',
