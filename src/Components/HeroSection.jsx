@@ -5,10 +5,12 @@ import time from "../assets/time.png";
 import date from "../assets/date.png";
 import location from "../assets/location.png";
 import search from "../assets/search.png";
+import heroImg from "../assets/heroImage.jpg"
 
 const HeroSection = () => {
     return (
         <div className="h-screen flex flex-col justify-center items-center">
+            <img src={heroImg} className='h-screen w-full absolute -z-50 opacity-60' />
             {/* Title Section */}
             <div className="text-left text-5xl md:text-7xl font-bold mb-14">
                 <h1>

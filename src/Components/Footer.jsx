@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="py-8">
+    <footer className="py-8 pt-20">
       <div className="container mx-auto px-6 md:px-12">
         <div className="flex flex-wrap justify-between">
           {/* Logo and App Links */}

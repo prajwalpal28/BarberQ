@@ -8,15 +8,17 @@ import Footer from '../Components/Footer';
 
 const LandingPage = () => {
     return (
-        <MovingBackground>
-            <div className="font-roboto">
-                <NavBar />
-                <HeroSection />
-                <BarberQShops />
-                <ReviewSection/>
-                <Footer/>
-            </div>
-        </MovingBackground>
+        <>
+            <MovingBackground>
+                <div className="font-roboto">
+                    <NavBar />
+                    <HeroSection />
+                    <BarberQShops />
+                    <ReviewSection />
+                    <Footer />
+                </div>
+            </MovingBackground>
+        </>
     );
 };
 
